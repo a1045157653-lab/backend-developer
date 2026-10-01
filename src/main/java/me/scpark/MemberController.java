@@ -9,9 +9,5 @@ import java.util.List;
 @RestController
 public class MemberController {
     @Autowired
-    private MemberService memberService;
-    @GetMapping("/member")
-    public List<Member> getAllMembers(){
-        return memberService.getAllMembers();
     }
 }
