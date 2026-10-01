@@ -6,10 +6,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class MemberService {
     @Autowired
-    private MemberRepository memberRepository;
-    public List<Member>  getAllMembers(){
-        return memberRepository.findAll();  //select * from member; 查询表中所有数据
     }
 }
