@@ -18,4 +18,8 @@ public class Member {
     private Long id;
     @Column(name="name",nullable=false)  //不可为空
     private String name;
+
+    public Member(String name){
+        this.name=name;
+    }
 }
